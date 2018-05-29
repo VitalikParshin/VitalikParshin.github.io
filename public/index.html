@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no">
+        <link rel="icon" href="https://i.pinimg.com/originals/57/8d/0d/578d0d1caad0c8c7c0e82fd37ef1f052.png" type="image/x-icon" />
+        <title>WebSocketChat</title>
+        <link rel="stylesheet" href="app.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Private Chat</h1>
+            <span id="status">OFFLINE</span>
+        </header>
+
+        <main>
+            <ul id="messages"></ul>
+
+            <form id="form">
+                <label for="message">&gt;</label>
+                <input type="text" id="input" required autofocus autocomplete="off">
+            </form>
+        </main>
+
+        <script src="socket.io.js"></script>
+        <script src="socket.js"></script>
+    </body>
+</html>

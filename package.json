@@ -1,0 +1,19 @@
+{
+  "name": "react-websocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./socket.js | npm run runserver",
+    "runserver": "http-server"
+  },
+  "dependencies": {
+    "socket.io": "^2.1.1",
+    "ws": "^5.2.0"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
